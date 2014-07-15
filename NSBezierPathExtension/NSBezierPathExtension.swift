@@ -23,7 +23,7 @@ typealias UIBezierPath = NSBezierPath
 extension NSBezierPath {
   var CGPath : CGPathRef! {
   get {
-    let cgPath = CGPathCreateMutable()
+    var cgPath = CGPathCreateMutable()
     var points = NSPointArray.alloc(3)
     for i in 0..<elementCount {
       let pathEl = elementAtIndex(i, associatedPoints: points)
@@ -98,7 +98,7 @@ extension NSBezierPath {
   
   convenience init(CGPath: CGPathRef!) {
     self.init()
-    __SHBezierPathInternalExtension.bezierPathWithPath(CGPath, onBezier: self)
+//    __SHBezierPathInternalExtension.bezierPathWithPath(CGPath, onBezier: self)
   }
   
 }

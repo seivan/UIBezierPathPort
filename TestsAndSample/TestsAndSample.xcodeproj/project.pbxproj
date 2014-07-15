@@ -7,57 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22C60D78197578F800F73CCB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D77197578F800F73CCB /* main.swift */; };
-		22C60D7A197578F800F73CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D79197578F800F73CCB /* AppDelegate.swift */; };
-		22C60D7C197578F800F73CCB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D7B197578F800F73CCB /* GameScene.swift */; };
-		22C60D7E197578F800F73CCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22C60D7D197578F800F73CCB /* GameScene.sks */; };
-		22C60D80197578F800F73CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C60D7F197578F800F73CCB /* Images.xcassets */; };
-		22C60D83197578F800F73CCB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C60D81197578F800F73CCB /* MainMenu.xib */; };
-		22C60D8F197578F800F73CCB /* TestsAndSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D8E197578F800F73CCB /* TestsAndSampleTests.swift */; };
-		22C60D9A1975790C00F73CCB /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D991975790C00F73CCB /* NSBezierPathExtension.swift */; };
-		22C60D9B1975790C00F73CCB /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D991975790C00F73CCB /* NSBezierPathExtension.swift */; };
-		22C60DA01975BB7500F73CCB /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D9F1975BB7500F73CCB /* __SHBezierPathInternalExtension.m */; };
-		22C60DA11975BB7500F73CCB /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C60D9F1975BB7500F73CCB /* __SHBezierPathInternalExtension.m */; };
+		22C60DB11975C27000F73CCB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DB01975C27000F73CCB /* main.swift */; };
+		22C60DB31975C27000F73CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DB21975C27000F73CCB /* AppDelegate.swift */; };
+		22C60DB51975C27000F73CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C60DB41975C27000F73CCB /* Images.xcassets */; };
+		22C60DB81975C27000F73CCB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C60DB61975C27000F73CCB /* MainMenu.xib */; };
+		22C60DC41975C27000F73CCB /* TestsAndSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DC31975C27000F73CCB /* TestsAndSampleTests.swift */; };
+		22C60DD31975C29100F73CCB /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DCF1975C29100F73CCB /* __SHBezierPathInternalExtension.m */; };
+		22C60DD41975C29100F73CCB /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DD01975C29100F73CCB /* NSBezierPathExtension.swift */; };
+		22C60DE81975C37A00F73CCB /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DCF1975C29100F73CCB /* __SHBezierPathInternalExtension.m */; };
+		22C60DE91975C37D00F73CCB /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DD01975C29100F73CCB /* NSBezierPathExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		22C60D89197578F800F73CCB /* PBXContainerItemProxy */ = {
+		22C60DBE1975C27000F73CCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22C60D6A197578F800F73CCB /* Project object */;
+			containerPortal = 22C60DA31975C27000F73CCB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22C60D71197578F800F73CCB;
+			remoteGlobalIDString = 22C60DAA1975C27000F73CCB;
+			remoteInfo = TestsAndSample;
+		};
+		22C60DEA1975C39600F73CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C60DA31975C27000F73CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C60DAA1975C27000F73CCB;
 			remoteInfo = TestsAndSample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22C60D72197578F800F73CCB /* TestsAndSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestsAndSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C60D76197578F800F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C60D77197578F800F73CCB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		22C60D79197578F800F73CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22C60D7B197578F800F73CCB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		22C60D7D197578F800F73CCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		22C60D7F197578F800F73CCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		22C60D82197578F800F73CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		22C60D88197578F800F73CCB /* TestsAndSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsAndSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C60D8D197578F800F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C60D8E197578F800F73CCB /* TestsAndSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAndSampleTests.swift; sourceTree = "<group>"; };
-		22C60D991975790C00F73CCB /* NSBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPathExtension.swift; sourceTree = "<group>"; };
-		22C60D9C1975BB7400F73CCB /* TestsAndSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestsAndSample-Bridging-Header.h"; sourceTree = "<group>"; };
-		22C60D9D1975BB7400F73CCB /* TestsAndSampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestsAndSampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		22C60D9E1975BB7500F73CCB /* __SHBezierPathInternalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = __SHBezierPathInternalExtension.h; sourceTree = "<group>"; };
-		22C60D9F1975BB7500F73CCB /* __SHBezierPathInternalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = __SHBezierPathInternalExtension.m; sourceTree = "<group>"; };
+		22C60DAB1975C27000F73CCB /* TestsAndSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestsAndSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C60DAF1975C27000F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C60DB01975C27000F73CCB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22C60DB21975C27000F73CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22C60DB41975C27000F73CCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22C60DB71975C27000F73CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22C60DBD1975C27000F73CCB /* TestsAndSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsAndSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C60DC21975C27000F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C60DC31975C27000F73CCB /* TestsAndSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAndSampleTests.swift; sourceTree = "<group>"; };
+		22C60DCE1975C29100F73CCB /* __SHBezierPathInternalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = __SHBezierPathInternalExtension.h; sourceTree = "<group>"; };
+		22C60DCF1975C29100F73CCB /* __SHBezierPathInternalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = __SHBezierPathInternalExtension.m; sourceTree = "<group>"; };
+		22C60DD01975C29100F73CCB /* NSBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPathExtension.swift; sourceTree = "<group>"; };
+		22C60DEE1975C4E600F73CCB /* TestsAndSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestsAndSample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22C60D6F197578F800F73CCB /* Frameworks */ = {
+		22C60DA81975C27000F73CCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22C60D85197578F800F73CCB /* Frameworks */ = {
+		22C60DBA1975C27000F73CCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,72 +69,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22C60D69197578F800F73CCB = {
+		22C60DA21975C27000F73CCB = {
 			isa = PBXGroup;
 			children = (
-				22C60D981975790C00F73CCB /* NSBezierPathExtension */,
-				22C60D74197578F800F73CCB /* TestsAndSample */,
-				22C60D8B197578F800F73CCB /* TestsAndSampleTests */,
-				22C60D73197578F800F73CCB /* Products */,
+				22C60DEE1975C4E600F73CCB /* TestsAndSample-Bridging-Header.h */,
+				22C60DCD1975C29100F73CCB /* NSBezierPathExtension */,
+				22C60DAD1975C27000F73CCB /* TestsAndSample */,
+				22C60DC01975C27000F73CCB /* TestsAndSampleTests */,
+				22C60DAC1975C27000F73CCB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		22C60D73197578F800F73CCB /* Products */ = {
+		22C60DAC1975C27000F73CCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22C60D72197578F800F73CCB /* TestsAndSample.app */,
-				22C60D88197578F800F73CCB /* TestsAndSampleTests.xctest */,
+				22C60DAB1975C27000F73CCB /* TestsAndSample.app */,
+				22C60DBD1975C27000F73CCB /* TestsAndSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22C60D74197578F800F73CCB /* TestsAndSample */ = {
+		22C60DAD1975C27000F73CCB /* TestsAndSample */ = {
 			isa = PBXGroup;
 			children = (
-				22C60D79197578F800F73CCB /* AppDelegate.swift */,
-				22C60D7B197578F800F73CCB /* GameScene.swift */,
-				22C60D7D197578F800F73CCB /* GameScene.sks */,
-				22C60D7F197578F800F73CCB /* Images.xcassets */,
-				22C60D81197578F800F73CCB /* MainMenu.xib */,
-				22C60D75197578F800F73CCB /* Supporting Files */,
+				22C60DB21975C27000F73CCB /* AppDelegate.swift */,
+				22C60DB41975C27000F73CCB /* Images.xcassets */,
+				22C60DB61975C27000F73CCB /* MainMenu.xib */,
+				22C60DAE1975C27000F73CCB /* Supporting Files */,
 			);
 			path = TestsAndSample;
 			sourceTree = "<group>";
 		};
-		22C60D75197578F800F73CCB /* Supporting Files */ = {
+		22C60DAE1975C27000F73CCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22C60D76197578F800F73CCB /* Info.plist */,
-				22C60D77197578F800F73CCB /* main.swift */,
+				22C60DAF1975C27000F73CCB /* Info.plist */,
+				22C60DB01975C27000F73CCB /* main.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		22C60D8B197578F800F73CCB /* TestsAndSampleTests */ = {
+		22C60DC01975C27000F73CCB /* TestsAndSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				22C60D8E197578F800F73CCB /* TestsAndSampleTests.swift */,
-				22C60D8C197578F800F73CCB /* Supporting Files */,
+				22C60DC31975C27000F73CCB /* TestsAndSampleTests.swift */,
+				22C60DC11975C27000F73CCB /* Supporting Files */,
 			);
 			path = TestsAndSampleTests;
 			sourceTree = "<group>";
 		};
-		22C60D8C197578F800F73CCB /* Supporting Files */ = {
+		22C60DC11975C27000F73CCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22C60D8D197578F800F73CCB /* Info.plist */,
+				22C60DC21975C27000F73CCB /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		22C60D981975790C00F73CCB /* NSBezierPathExtension */ = {
+		22C60DCD1975C29100F73CCB /* NSBezierPathExtension */ = {
 			isa = PBXGroup;
 			children = (
-				22C60D991975790C00F73CCB /* NSBezierPathExtension.swift */,
-				22C60D9E1975BB7500F73CCB /* __SHBezierPathInternalExtension.h */,
-				22C60D9F1975BB7500F73CCB /* __SHBezierPathInternalExtension.m */,
-				22C60D9C1975BB7400F73CCB /* TestsAndSample-Bridging-Header.h */,
-				22C60D9D1975BB7400F73CCB /* TestsAndSampleTests-Bridging-Header.h */,
+				22C60DCE1975C29100F73CCB /* __SHBezierPathInternalExtension.h */,
+				22C60DCF1975C29100F73CCB /* __SHBezierPathInternalExtension.m */,
+				22C60DD01975C29100F73CCB /* NSBezierPathExtension.swift */,
 			);
 			name = NSBezierPathExtension;
 			path = ../NSBezierPathExtension;
@@ -141,13 +140,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22C60D71197578F800F73CCB /* TestsAndSample */ = {
+		22C60DAA1975C27000F73CCB /* TestsAndSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22C60D92197578F800F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSample" */;
+			buildConfigurationList = 22C60DC71975C27000F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSample" */;
 			buildPhases = (
-				22C60D6E197578F800F73CCB /* Sources */,
-				22C60D6F197578F800F73CCB /* Frameworks */,
-				22C60D70197578F800F73CCB /* Resources */,
+				22C60DA71975C27000F73CCB /* Sources */,
+				22C60DA81975C27000F73CCB /* Frameworks */,
+				22C60DA91975C27000F73CCB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -155,46 +154,47 @@
 			);
 			name = TestsAndSample;
 			productName = TestsAndSample;
-			productReference = 22C60D72197578F800F73CCB /* TestsAndSample.app */;
+			productReference = 22C60DAB1975C27000F73CCB /* TestsAndSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22C60D87197578F800F73CCB /* TestsAndSampleTests */ = {
+		22C60DBC1975C27000F73CCB /* TestsAndSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22C60D95197578F800F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSampleTests" */;
+			buildConfigurationList = 22C60DCA1975C27000F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSampleTests" */;
 			buildPhases = (
-				22C60D84197578F800F73CCB /* Sources */,
-				22C60D85197578F800F73CCB /* Frameworks */,
-				22C60D86197578F800F73CCB /* Resources */,
+				22C60DB91975C27000F73CCB /* Sources */,
+				22C60DBA1975C27000F73CCB /* Frameworks */,
+				22C60DBB1975C27000F73CCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22C60D8A197578F800F73CCB /* PBXTargetDependency */,
+				22C60DBF1975C27000F73CCB /* PBXTargetDependency */,
+				22C60DEB1975C39600F73CCB /* PBXTargetDependency */,
 			);
 			name = TestsAndSampleTests;
 			productName = TestsAndSampleTests;
-			productReference = 22C60D88197578F800F73CCB /* TestsAndSampleTests.xctest */;
+			productReference = 22C60DBD1975C27000F73CCB /* TestsAndSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		22C60D6A197578F800F73CCB /* Project object */ = {
+		22C60DA31975C27000F73CCB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Seivan Heidari";
 				TargetAttributes = {
-					22C60D71197578F800F73CCB = {
+					22C60DAA1975C27000F73CCB = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					22C60D87197578F800F73CCB = {
+					22C60DBC1975C27000F73CCB = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 22C60D71197578F800F73CCB;
+						TestTargetID = 22C60DAA1975C27000F73CCB;
 					};
 				};
 			};
-			buildConfigurationList = 22C60D6D197578F800F73CCB /* Build configuration list for PBXProject "TestsAndSample" */;
+			buildConfigurationList = 22C60DA61975C27000F73CCB /* Build configuration list for PBXProject "TestsAndSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,29 +202,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 22C60D69197578F800F73CCB;
-			productRefGroup = 22C60D73197578F800F73CCB /* Products */;
+			mainGroup = 22C60DA21975C27000F73CCB;
+			productRefGroup = 22C60DAC1975C27000F73CCB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22C60D71197578F800F73CCB /* TestsAndSample */,
-				22C60D87197578F800F73CCB /* TestsAndSampleTests */,
+				22C60DAA1975C27000F73CCB /* TestsAndSample */,
+				22C60DBC1975C27000F73CCB /* TestsAndSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22C60D70197578F800F73CCB /* Resources */ = {
+		22C60DA91975C27000F73CCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C60D7E197578F800F73CCB /* GameScene.sks in Resources */,
-				22C60D80197578F800F73CCB /* Images.xcassets in Resources */,
-				22C60D83197578F800F73CCB /* MainMenu.xib in Resources */,
+				22C60DB51975C27000F73CCB /* Images.xcassets in Resources */,
+				22C60DB81975C27000F73CCB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22C60D86197578F800F73CCB /* Resources */ = {
+		22C60DBB1975C27000F73CCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,43 +233,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22C60D6E197578F800F73CCB /* Sources */ = {
+		22C60DA71975C27000F73CCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C60D7C197578F800F73CCB /* GameScene.swift in Sources */,
-				22C60D7A197578F800F73CCB /* AppDelegate.swift in Sources */,
-				22C60DA01975BB7500F73CCB /* __SHBezierPathInternalExtension.m in Sources */,
-				22C60D9A1975790C00F73CCB /* NSBezierPathExtension.swift in Sources */,
-				22C60D78197578F800F73CCB /* main.swift in Sources */,
+				22C60DD31975C29100F73CCB /* __SHBezierPathInternalExtension.m in Sources */,
+				22C60DB31975C27000F73CCB /* AppDelegate.swift in Sources */,
+				22C60DD41975C29100F73CCB /* NSBezierPathExtension.swift in Sources */,
+				22C60DB11975C27000F73CCB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22C60D84197578F800F73CCB /* Sources */ = {
+		22C60DB91975C27000F73CCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C60DA11975BB7500F73CCB /* __SHBezierPathInternalExtension.m in Sources */,
-				22C60D9B1975790C00F73CCB /* NSBezierPathExtension.swift in Sources */,
-				22C60D8F197578F800F73CCB /* TestsAndSampleTests.swift in Sources */,
+				22C60DE91975C37D00F73CCB /* NSBezierPathExtension.swift in Sources */,
+				22C60DC41975C27000F73CCB /* TestsAndSampleTests.swift in Sources */,
+				22C60DE81975C37A00F73CCB /* __SHBezierPathInternalExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22C60D8A197578F800F73CCB /* PBXTargetDependency */ = {
+		22C60DBF1975C27000F73CCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22C60D71197578F800F73CCB /* TestsAndSample */;
-			targetProxy = 22C60D89197578F800F73CCB /* PBXContainerItemProxy */;
+			target = 22C60DAA1975C27000F73CCB /* TestsAndSample */;
+			targetProxy = 22C60DBE1975C27000F73CCB /* PBXContainerItemProxy */;
+		};
+		22C60DEB1975C39600F73CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C60DAA1975C27000F73CCB /* TestsAndSample */;
+			targetProxy = 22C60DEA1975C39600F73CCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22C60D81197578F800F73CCB /* MainMenu.xib */ = {
+		22C60DB61975C27000F73CCB /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				22C60D82197578F800F73CCB /* Base */,
+				22C60DB71975C27000F73CCB /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -278,7 +281,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		22C60D90197578F800F73CCB /* Debug */ = {
+		22C60DC51975C27000F73CCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,7 +323,7 @@
 			};
 			name = Debug;
 		};
-		22C60D91197578F800F73CCB /* Release */ = {
+		22C60DC61975C27000F73CCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,34 +358,33 @@
 			};
 			name = Release;
 		};
-		22C60D93197578F800F73CCB /* Debug */ = {
+		22C60DC81975C27000F73CCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TestsAndSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "../NSBezierPathExtension/TestsAndSample-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestsAndSample-Bridging-Header.h";
 			};
 			name = Debug;
 		};
-		22C60D94197578F800F73CCB /* Release */ = {
+		22C60DC91975C27000F73CCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TestsAndSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "../NSBezierPathExtension/TestsAndSample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestsAndSample-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		22C60D96197578F800F73CCB /* Debug */ = {
+		22C60DCB1975C27000F73CCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestsAndSample.app/Contents/MacOS/TestsAndSample";
@@ -399,13 +401,13 @@
 				INFOPLIST_FILE = TestsAndSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "../NSBezierPathExtension/TestsAndSampleTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestsAndSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
-		22C60D97197578F800F73CCB /* Release */ = {
+		22C60DCC1975C27000F73CCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestsAndSample.app/Contents/MacOS/TestsAndSample";
@@ -418,7 +420,7 @@
 				INFOPLIST_FILE = TestsAndSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "../NSBezierPathExtension/TestsAndSampleTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestsAndSample-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -426,32 +428,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22C60D6D197578F800F73CCB /* Build configuration list for PBXProject "TestsAndSample" */ = {
+		22C60DA61975C27000F73CCB /* Build configuration list for PBXProject "TestsAndSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22C60D90197578F800F73CCB /* Debug */,
-				22C60D91197578F800F73CCB /* Release */,
+				22C60DC51975C27000F73CCB /* Debug */,
+				22C60DC61975C27000F73CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22C60D92197578F800F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSample" */ = {
+		22C60DC71975C27000F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22C60D93197578F800F73CCB /* Debug */,
-				22C60D94197578F800F73CCB /* Release */,
+				22C60DC81975C27000F73CCB /* Debug */,
+				22C60DC91975C27000F73CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		22C60D95197578F800F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSampleTests" */ = {
+		22C60DCA1975C27000F73CCB /* Build configuration list for PBXNativeTarget "TestsAndSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22C60D96197578F800F73CCB /* Debug */,
-				22C60D97197578F800F73CCB /* Release */,
+				22C60DCB1975C27000F73CCB /* Debug */,
+				22C60DCC1975C27000F73CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 22C60D6A197578F800F73CCB /* Project object */;
+	rootObject = 22C60DA31975C27000F73CCB /* Project object */;
 }
