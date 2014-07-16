@@ -8,7 +8,21 @@ Most notabily adding QuadCurves and ```CGPath``` property (getter and setter) am
 
 ### Usage
 
-You can run this on Mac OS
+##### API
+```swift
+  var CGPath:CGPathRef! {get set}
+  init()
+  init(roundedRect rect: NSRect, cornerRadius: CGFloat)
+  init(roundedRect rect: NSRect, byRoundingCorners corners: UIRectCorner, cornerRadii: NSSize)
+  init(arcCenter center: CGPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool)
+  init(CGPath: CGPathRef!)
+  func addLineToPoint(point: NSPoint)
+  func addCurveToPoint(endPoint: NSPoint, controlPoint1: NSPoint, controlPoint2: NSPoint)
+  func addQuadCurveToPoint(endPoint: NSPoint, controlPoint: NSPoint)
+  func addArcWithCenter(center: NSPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool)
+  func appendPath(path: NSBezierPath!)
+```
+
 ##### Sample
 ```swift
 //// Quad Curves
@@ -44,20 +58,6 @@ oval2Path.addArcWithCenter(CGPointMake(0.0, 0.0), radius: oval2Rect.width / 2, s
 
 ``` 
 
-##### API
-```swift
-  var CGPath:CGPathRef! {get set}
-  init()
-  init(roundedRect rect: NSRect, cornerRadius: CGFloat)
-  init(roundedRect rect: NSRect, byRoundingCorners corners: UIRectCorner, cornerRadii: NSSize)
-  init(arcCenter center: CGPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool)
-  init(CGPath: CGPathRef!)
-  func addLineToPoint(point: NSPoint)
-  func addCurveToPoint(endPoint: NSPoint, controlPoint1: NSPoint, controlPoint2: NSPoint)
-  func addQuadCurveToPoint(endPoint: NSPoint, controlPoint: NSPoint)
-  func addArcWithCenter(center: NSPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool)
-  func appendPath(path: NSBezierPath!)
-```
 
 
 
