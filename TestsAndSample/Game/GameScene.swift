@@ -20,95 +20,84 @@ class GameScene: SKScene {
         self.addChild(myLabel)
     }
   
+  var bezierPaths:[UIBezierPath] {
+  
+  
+  
+  //// Oval Drawing
+    var ovalRect = CGRectMake(0, 279, 150, 150)
+    var ovalPath = UIBezierPath()
+    ovalPath.addArcWithCenter(CGPointMake(ovalRect.midX, ovalRect.midY), radius: ovalRect.width / 2, startAngle: -33 * M_PI/180, endAngle: 33 * M_PI/180, clockwise: false)
+    ovalPath.addLineToPoint(CGPointMake(ovalRect.midX, ovalRect.midY))
+    ovalPath.closePath()
+    
+    
+    
+    //// Polygon Drawing
+    var polygonPath = UIBezierPath()
+    polygonPath.moveToPoint(CGPointMake(200, 301))
+    polygonPath.addLineToPoint(CGPointMake(243.3, 276))
+    polygonPath.addLineToPoint(CGPointMake(243.3, 226))
+    polygonPath.addLineToPoint(CGPointMake(200, 201))
+    polygonPath.addLineToPoint(CGPointMake(156.7, 226))
+    polygonPath.addLineToPoint(CGPointMake(156.7, 276))
+    polygonPath.closePath()
+    
+    
+    //// Star Drawing
+    var starPath = UIBezierPath()
+    starPath.moveToPoint(CGPointMake(284, 207))
+    starPath.addLineToPoint(CGPointMake(299, 182.98))
+    starPath.addLineToPoint(CGPointMake(327.3, 182))
+    starPath.addLineToPoint(CGPointMake(314, 157))
+    starPath.addLineToPoint(CGPointMake(327.3, 132))
+    starPath.addLineToPoint(CGPointMake(299, 131.02))
+    starPath.addLineToPoint(CGPointMake(284, 107))
+    starPath.addLineToPoint(CGPointMake(269, 131.02))
+    starPath.addLineToPoint(CGPointMake(240.7, 132))
+    starPath.addLineToPoint(CGPointMake(254, 157))
+    starPath.addLineToPoint(CGPointMake(240.7, 182))
+    starPath.addLineToPoint(CGPointMake(269, 182.98))
+    starPath.closePath()
+    
+    
+    //// Star 2 Drawing
+
+      var star2Path = UIBezierPath()
+      star2Path.moveToPoint(CGPointMake(200, 529))
+      star2Path.addQuadCurveToPoint(CGPointMake(212.99, 492.71), controlPoint: CGPointMake(206.5, 529))
+      star2Path.addQuadCurveToPoint(CGPointMake(249.91, 490.97), controlPoint: CGPointMake(212.99, 492.71))
+      star2Path.addQuadCurveToPoint(CGPointMake(221.02, 466.8), controlPoint: CGPointMake(251.91, 484.49))
+      star2Path.addQuadCurveToPoint(CGPointMake(230.84, 429.43), controlPoint: CGPointMake(221.02, 466.8))
+      star2Path.addQuadCurveToPoint(CGPointMake(200, 450.78), controlPoint: CGPointMake(225.59, 425.42))
+      star2Path.addQuadCurveToPoint(CGPointMake(169.16, 429.43), controlPoint: CGPointMake(200, 450.78))
+      star2Path.addQuadCurveToPoint(CGPointMake(178.98, 466.8), controlPoint: CGPointMake(163.9, 433.43))
+      star2Path.addQuadCurveToPoint(CGPointMake(150.09, 490.97), controlPoint: CGPointMake(178.98, 466.8))
+      star2Path.addQuadCurveToPoint(CGPointMake(187.01, 492.71), controlPoint: CGPointMake(152.1, 497.45))
+      star2Path.addQuadCurveToPoint(CGPointMake(200, 529), controlPoint: CGPointMake(187.01, 492.71))
+      star2Path.closePath()
+
+    
+    //// Oval 2 Drawing
+    var oval2Path = UIBezierPath(ovalInRect: CGRectMake(321, 16, 100, 100))
+    
+    
+    //// Rectangle 2 Drawing
+    let rectangle2Path = UIBezierPath(roundedRect: CGRectMake(401, 578, 100, 100), cornerRadius: 5)
+    
+    
+    //// Rectangle Drawing
+    var rectanglePath = UIBezierPath(roundedRect: CGRectMake(272, 503, 100, 100), byRoundingCorners: UIRectCorner.fromMask(UIRectCorner.TopRight.toRaw() | UIRectCorner.BottomLeft.toRaw()), cornerRadii: CGSizeMake(50, 50))
+    rectanglePath.closePath()
+
+
+    return [ovalPath,polygonPath,starPath,star2Path,oval2Path,oval2Path,rectanglePath,rectangle2Path]
+  }
   func eventOnCGPoint(location:CGPoint) {
 
 
-//// Rectangle Drawing
-    let rectanglePath = UIBezierPath(roundedRect: CGRectMake(210, 582, 142, 149), cornerRadius: 30)
-
-
-
-//// Rectangle 2 Drawing
-    let rectangle2Path = UIBezierPath(rect: CGRectMake(35, 582, 143, 149))
-
-
-
-//// Rectangle 3 Drawing
-    var rectangle3Path = UIBezierPath(roundedRect: CGRectMake(408, 582, 142, 149), byRoundingCorners: UIRectCorner.fromMask(UIRectCorner.TopRight.toRaw() | UIRectCorner.BottomLeft.toRaw()), cornerRadii: CGSizeMake(50, 50))
-    rectangle3Path.closePath()
-
-
-//// Oval Drawing
-    var ovalPath = UIBezierPath(ovalInRect: CGRectMake(35, 393, 130, 109))
-
-
-
-//// Oval 2 Drawing
-    var oval2Rect = CGRectMake(222, 393, 130, 109)
-    var oval2Path = UIBezierPath()
-    oval2Path.addArcWithCenter(CGPointMake(0.0, 0.0), radius: oval2Rect.width / 2, startAngle: 11 * M_PI/180, endAngle: 200 * M_PI/180, clockwise: true)
-
-
-//// Oval 3 Drawing
-    var oval3Rect = CGRectMake(408, 393, 130, 109)
-    var oval3Path = UIBezierPath()
-    oval3Path.addArcWithCenter(CGPointMake(0.0, 0.0), radius: oval3Rect.width / 2, startAngle: 98 * M_PI/180, endAngle: 200 * M_PI/180, clockwise: true)
-    oval3Path.addLineToPoint(CGPointMake(0.0, 0.0))
-    oval3Path.closePath()
-
-
-//// Star Drawing
-var starQuadPath = UIBezierPath()
-starQuadPath.moveToPoint(CGPointMake(108, 570))
-starQuadPath.addQuadCurveToPoint(CGPointMake(65.09, 584.63), controlPoint: CGPointMake(97.27, 573.66))
-starQuadPath.addQuadCurveToPoint(CGPointMake(66.34, 540.98), controlPoint: CGPointMake(54.68, 577.38))
-starQuadPath.addQuadCurveToPoint(CGPointMake(38.57, 506.37), controlPoint: CGPointMake(66.34, 540.98))
-starQuadPath.addQuadCurveToPoint(CGPointMake(82.26, 494.02), controlPoint: CGPointMake(42.55, 494.63))
-starQuadPath.addQuadCurveToPoint(CGPointMake(108, 458), controlPoint: CGPointMake(99.61, 481.93))
-starQuadPath.addQuadCurveToPoint(CGPointMake(133.74, 494.02), controlPoint: CGPointMake(120.87, 458))
-starQuadPath.addQuadCurveToPoint(CGPointMake(177.43, 506.37), controlPoint: CGPointMake(151.1, 506.11))
-starQuadPath.addQuadCurveToPoint(CGPointMake(149.66, 540.98), controlPoint: CGPointMake(181.4, 518.11))
-starQuadPath.addQuadCurveToPoint(CGPointMake(150.91, 584.63), controlPoint: CGPointMake(149.66, 540.98))
-starQuadPath.addQuadCurveToPoint(CGPointMake(108, 570), controlPoint: CGPointMake(140.49, 591.89))
-
-    
-
-
-//// Star 2 Drawing
-    var star2Path = UIBezierPath()
-    star2Path.moveToPoint(CGPointMake(287, 348))
-    star2Path.addLineToPoint(CGPointMake(301.27, 300.26))
-    star2Path.addLineToPoint(CGPointMake(354.33, 313))
-    star2Path.addLineToPoint(CGPointMake(315.55, 278))
-    star2Path.addLineToPoint(CGPointMake(354.33, 243))
-    star2Path.addLineToPoint(CGPointMake(301.27, 255.74))
-    star2Path.addLineToPoint(CGPointMake(287, 208))
-    star2Path.addLineToPoint(CGPointMake(272.73, 255.74))
-    star2Path.addLineToPoint(CGPointMake(219.67, 243))
-    star2Path.addLineToPoint(CGPointMake(258.45, 278))
-    star2Path.addLineToPoint(CGPointMake(219.67, 313))
-    star2Path.addLineToPoint(CGPointMake(272.73, 300.26))
-    star2Path.closePath()
-
-
-//// Star 3 Drawing
-    var star3Path = UIBezierPath()
-    star3Path.moveToPoint(CGPointMake(479, 359))
-    star3Path.addLineToPoint(CGPointMake(504.44, 307.54))
-    star3Path.addLineToPoint(CGPointMake(570.3, 303.03))
-    star3Path.addLineToPoint(CGPointMake(520.16, 266.72))
-    star3Path.addLineToPoint(CGPointMake(535.43, 212.47))
-    star3Path.addLineToPoint(CGPointMake(479, 241.48))
-    star3Path.addLineToPoint(CGPointMake(422.57, 212.47))
-    star3Path.addLineToPoint(CGPointMake(437.84, 266.72))
-    star3Path.addLineToPoint(CGPointMake(387.7, 303.03))
-    star3Path.addLineToPoint(CGPointMake(453.56, 307.54))
-    star3Path.closePath()
-
-    
-    let beziers = [rectangle2Path, ovalPath, rectanglePath,rectangle3Path,oval2Path,oval3Path,starQuadPath,star2Path,star3Path]
     var counter = 0
-    for bezier in beziers {
+    for bezier in self.bezierPaths {
       bezier.closePath()
       let sprite = SKShapeNode()
       sprite.path = bezier.CGPath
