@@ -24,9 +24,15 @@ typealias UIRectCorner = NSRectCorner
 protocol NSBezierPathExtension {
   var CGPath:CGPathRef! {get set}
   init()
+  
+  //Not missing, but for some reason we need it
+//  init(rect: NSRect)
+  //Not missing, but for some reason we need it
+//  init(ovalInRect rect: NSRect)
+
   init(roundedRect rect: NSRect, cornerRadius: CGFloat)
   init(roundedRect rect: NSRect, byRoundingCorners corners: UIRectCorner, cornerRadii: NSSize)
-  init(arcCenter center: CGPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool)
+  init(arcCenter center: NSPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool)
   init(CGPath: CGPathRef!)
   func addLineToPoint(point: NSPoint)
   func addCurveToPoint(endPoint: NSPoint, controlPoint1: NSPoint, controlPoint2: NSPoint)
@@ -72,6 +78,14 @@ class UIBezierPath : NSBezierPath, NSBezierPathExtension {
     super.init()
   }
   
+//  init(rect: NSRect) {
+//    super.init(rect: rect)
+//
+//  }
+//
+//  init(ovalInRect: NSRect) {
+//    super.init(ovalInRect:ovalInRect)
+//  }
 
   convenience init(roundedRect rect: NSRect, cornerRadius: CGFloat) {
     self.init(roundedRect:rect, byRoundingCorners:.AllCorners, cornerRadii:NSSize(width: cornerRadius, height: cornerRadius))
