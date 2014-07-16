@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#if TARGET_OS_MAC
 @class NSBezierPath;
 @interface __SHBezierPathInternalExtension : NSObject
 +(void)bezierPathWithPath:(CGPathRef)thePath onBezier:(NSBezierPath *)theBezierPath;
 @end
+#endif

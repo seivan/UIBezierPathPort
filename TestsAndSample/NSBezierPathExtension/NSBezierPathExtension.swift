@@ -1,4 +1,4 @@
-//#if os(OSX)
+#if os(OSX)
 import Cocoa
 struct NSRectCorner : RawOptionSet {
   var value: UInt = 0
@@ -183,5 +183,5 @@ class UIBezierPath : NSBezierPath, NSBezierPathExtension {
   
 }
 
-//#endif
+#endif
   

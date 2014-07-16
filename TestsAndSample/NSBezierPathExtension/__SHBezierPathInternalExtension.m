@@ -8,6 +8,9 @@
 
 #import "__SHBezierPathInternalExtension.h"
 #import <AppKit/AppKit.h>
+
+#if TARGET_OS_MAC
+
 @implementation __SHBezierPathInternalExtension
 static void __CGPathCallback(void *info, const CGPathElement *element)
 {
@@ -51,3 +54,4 @@ static void __CGPathCallback(void *info, const CGPathElement *element)
   CGPathApply(thePath, (__bridge void *)(theBezierPath), __CGPathCallback);
 }
 @end
+#endif
