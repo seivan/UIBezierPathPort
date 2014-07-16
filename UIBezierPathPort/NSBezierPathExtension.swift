@@ -26,9 +26,9 @@ protocol NSBezierPathExtension {
   init()
   
   //Not missing, but for some reason we need it
-//  init(rect: NSRect)
+  init(rect: NSRect)
   //Not missing, but for some reason we need it
-//  init(ovalInRect rect: NSRect)
+  init(ovalInRect rect: NSRect)
 
   init(roundedRect rect: NSRect, cornerRadius: CGFloat)
   init(roundedRect rect: NSRect, byRoundingCorners corners: UIRectCorner, cornerRadii: NSSize)
@@ -47,7 +47,7 @@ class UIBezierPath : NSBezierPath, NSBezierPathExtension {
   var CGPath : CGPathRef! {
   get {
     var path = CGPathCreateMutable()
-    var points = NSPointArray.alloc(3)
+    var points = UnsafePointer<NSPoint>.alloc(3)
 //    var isClosed = false
     
     for index in 0..<self.elementCount {

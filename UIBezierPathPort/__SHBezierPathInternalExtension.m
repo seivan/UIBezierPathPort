@@ -41,12 +41,14 @@ static void __CGPathCallback(void *info, const CGPathElement *element)
       [path curveToPoint:NSMakePoint(points[2].x, points[2].y) controlPoint1:NSMakePoint(points[0].x, points[0].y) controlPoint2:NSMakePoint(points[1].x, points[1].y)];
       break;
     }
-    case kCGPathElementCloseSubpath:
-    default:
-    {
+    case kCGPathElementCloseSubpath: {
       [path closePath];
-      break;
     }
+//    default:
+//    {
+//      [path closePath];
+//      break;
+//    }
   }
 }
 
