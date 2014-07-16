@@ -64,13 +64,15 @@ oval2Path.addArcWithCenter(CGPointMake(0.0, 0.0), radius: oval2Rect.width / 2, s
 
 ###Contact
 
-
 If you end up using UIBezierPathPort in a project, I'd love to hear about it.
 
 email: [seivan.heidari@icloud.com](mailto:seivan.heidari@icloud.com)  
 twitter: [@seivanheidari](https://twitter.com/seivanheidari)
 
 ***
+
+### Credit
+[Sean Heber](http://twitter.com/BigZaphod) for the Chameleon project - We have different implementations but the idea is the same. 
 
 ### License
 

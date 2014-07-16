@@ -146,6 +146,8 @@ class UIBezierPath : NSBezierPath, NSBezierPathExtension {
   convenience init(arcCenter center: CGPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool) {
     self.init()
     self.addArcWithCenter(center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: clockwise)
+    let x = self.CGPath
+    self.CGPath = x
   }
   
   convenience init(CGPath: CGPathRef!) {
@@ -186,10 +188,9 @@ class UIBezierPath : NSBezierPath, NSBezierPathExtension {
   }
 
   func addArcWithCenter(center: NSPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool) {
-    //self.appendBezierPathWithArcWithCenter(center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: clockwise)
-    let path = CGPathCreateMutableCopy(self.CGPath)
-    CGPathAddArc(path, nil, center.x, center.y, radius, startAngle, endAngle, clockwise)
-    self.CGPath = path
+    let startAngleRadian = ((startAngle) * (180.0 / M_PI))
+    let endAngleRadian = ((endAngle) * (180.0 / M_PI))
+    self.appendBezierPathWithArcWithCenter(center, radius: radius, startAngle: startAngleRadian, endAngle: endAngleRadian, clockwise: !clockwise)
     
   }
   
