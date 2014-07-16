@@ -24,7 +24,7 @@ class GameScene: SKScene {
 
 
 //// Rectangle Drawing
-    let rectanglePath = UIBezierPath(roundedRect: CGRectMake(210, 582, 142, 149), cornerRadius: 19)
+    let rectanglePath = UIBezierPath(roundedRect: CGRectMake(210, 582, 142, 149), cornerRadius: 30)
 
 
 
