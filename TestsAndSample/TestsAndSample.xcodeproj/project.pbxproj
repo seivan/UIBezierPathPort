@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		22BAB68C19763A6C00A47BF1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E531976318C00F73CCB /* GameScene.swift */; };
-		22BAB68D19763AE600A47BF1 /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E1F1975C70200F73CCB /* NSBezierPathExtension.swift */; };
+		22BAB6921976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB6901976418800A47BF1 /* __SHBezierPathInternalExtension.m */; };
+		22BAB6931976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB6901976418800A47BF1 /* __SHBezierPathInternalExtension.m */; };
+		22BAB6941976418800A47BF1 /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB6911976418800A47BF1 /* NSBezierPathExtension.swift */; };
+		22BAB6951976418800A47BF1 /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB6911976418800A47BF1 /* NSBezierPathExtension.swift */; };
 		22C60DFE1975C6E400F73CCB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DFD1975C6E400F73CCB /* main.swift */; };
 		22C60E001975C6E400F73CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DFF1975C6E400F73CCB /* AppDelegate.swift */; };
 		22C60E061975C6E400F73CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C60E051975C6E400F73CCB /* Images.xcassets */; };
 		22C60E091975C6E400F73CCB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C60E071975C6E400F73CCB /* MainMenu.xib */; };
 		22C60E151975C6E400F73CCB /* TestsAndSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E141975C6E400F73CCB /* TestsAndSampleTests.swift */; };
-		22C60E201975C70200F73CCB /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E1F1975C70200F73CCB /* NSBezierPathExtension.swift */; };
-		22C60E271975E8B000F73CCB /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E261975E8B000F73CCB /* __SHBezierPathInternalExtension.m */; };
-		22C60E281975E8B000F73CCB /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E261975E8B000F73CCB /* __SHBezierPathInternalExtension.m */; };
 		22C60E331976310900F73CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E321976310900F73CCB /* AppDelegate.swift */; };
 		22C60E391976310900F73CCB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E381976310900F73CCB /* GameViewController.swift */; };
 		22C60E3C1976310900F73CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C60E3A1976310900F73CCB /* Main.storyboard */; };
@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22BAB68F1976418800A47BF1 /* __SHBezierPathInternalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = __SHBezierPathInternalExtension.h; sourceTree = "<group>"; };
+		22BAB6901976418800A47BF1 /* __SHBezierPathInternalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = __SHBezierPathInternalExtension.m; sourceTree = "<group>"; };
+		22BAB6911976418800A47BF1 /* NSBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPathExtension.swift; sourceTree = "<group>"; };
 		22C60DF81975C6E400F73CCB /* TestsAndSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestsAndSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C60DFC1975C6E400F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C60DFD1975C6E400F73CCB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -46,9 +49,6 @@
 		22C60E0E1975C6E400F73CCB /* TestsAndSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsAndSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C60E131975C6E400F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C60E141975C6E400F73CCB /* TestsAndSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAndSampleTests.swift; sourceTree = "<group>"; };
-		22C60E1F1975C70200F73CCB /* NSBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPathExtension.swift; sourceTree = "<group>"; };
-		22C60E251975E8B000F73CCB /* __SHBezierPathInternalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = __SHBezierPathInternalExtension.h; sourceTree = "<group>"; };
-		22C60E261975E8B000F73CCB /* __SHBezierPathInternalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = __SHBezierPathInternalExtension.m; sourceTree = "<group>"; };
 		22C60E29197630B600F73CCB /* TestsAndSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestsAndSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		22C60E2E1976310900F73CCB /* TestsAndSampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestsAndSampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C60E311976310900F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,12 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22BAB68E1976418800A47BF1 /* UIBezierPathPort */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB68F1976418800A47BF1 /* __SHBezierPathInternalExtension.h */,
+				22BAB6901976418800A47BF1 /* __SHBezierPathInternalExtension.m */,
+				22BAB6911976418800A47BF1 /* NSBezierPathExtension.swift */,
+			);
+			name = UIBezierPathPort;
+			path = ../UIBezierPathPort;
+			sourceTree = "<group>";
+		};
 		22C60DEF1975C6E400F73CCB = {
 			isa = PBXGroup;
 			children = (
+				22BAB68E1976418800A47BF1 /* UIBezierPathPort */,
 				22C60E511976318C00F73CCB /* Game */,
 				22C60E29197630B600F73CCB /* TestsAndSample-Bridging-Header.h */,
-				22C60E1E1975C70200F73CCB /* NSBezierPathExtension */,
 				22C60DFA1975C6E400F73CCB /* TestsAndSample */,
 				22C60E111975C6E400F73CCB /* TestsAndSampleTests */,
 				22C60E2F1976310900F73CCB /* TestsAndSampleiOS */,
@@ -143,16 +154,6 @@
 				22C60E131975C6E400F73CCB /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		22C60E1E1975C70200F73CCB /* NSBezierPathExtension */ = {
-			isa = PBXGroup;
-			children = (
-				22C60E251975E8B000F73CCB /* __SHBezierPathInternalExtension.h */,
-				22C60E261975E8B000F73CCB /* __SHBezierPathInternalExtension.m */,
-				22C60E1F1975C70200F73CCB /* NSBezierPathExtension.swift */,
-			);
-			path = NSBezierPathExtension;
 			sourceTree = "<group>";
 		};
 		22C60E2F1976310900F73CCB /* TestsAndSampleiOS */ = {
@@ -317,9 +318,9 @@
 			files = (
 				22C60E581976346800F73CCB /* GameScene.swift in Sources */,
 				22C60E001975C6E400F73CCB /* AppDelegate.swift in Sources */,
-				22C60E271975E8B000F73CCB /* __SHBezierPathInternalExtension.m in Sources */,
-				22C60E201975C70200F73CCB /* NSBezierPathExtension.swift in Sources */,
 				22C60DFE1975C6E400F73CCB /* main.swift in Sources */,
+				22BAB6921976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */,
+				22BAB6941976418800A47BF1 /* NSBezierPathExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BAB68D19763AE600A47BF1 /* NSBezierPathExtension.swift in Sources */,
+				22BAB6951976418800A47BF1 /* NSBezierPathExtension.swift in Sources */,
 				22C60E151975C6E400F73CCB /* TestsAndSampleTests.swift in Sources */,
-				22C60E281975E8B000F73CCB /* __SHBezierPathInternalExtension.m in Sources */,
+				22BAB6931976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

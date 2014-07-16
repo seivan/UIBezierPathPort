@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  name           = "NSBezierPathExtension"
+  name           = "UIBezierPathPort"
   url            = "https://github.com/seivan/#{name}"
   git_url        = "#{url}.git"
   s.name         = name
@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   source_files   = "#{name}/**/*.{swift}"
 
   s.version      = version
-  s.summary      = "NSBezierPathExtension extension to mimic UIBezierPath API - also typealiased"
+  s.summary      = "Ported UIBezierPath API to NSBezierPath and typealiased"
   s.description  = <<-DESC
 
                     * Well-tested & documented and lightweight
