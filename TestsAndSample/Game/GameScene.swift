@@ -25,7 +25,7 @@ class GameScene: SKScene {
   
   
   //// Oval Drawing
-  var ovalRect = CGRectMake(0, 279, 150, 150)
+    var ovalRect = CGRectMake(0, 279, 150, 150)
     var ovalPath = UIBezierPath()
     ovalPath.addArcWithCenter(CGPointMake(ovalRect.midX, ovalRect.midY), radius: ovalRect.width / 2, startAngle: -33 * M_PI/180, endAngle: 33 * M_PI/180, clockwise: false)
     ovalPath.addLineToPoint(CGPointMake(ovalRect.midX, ovalRect.midY))
@@ -62,20 +62,21 @@ class GameScene: SKScene {
     
     
     //// Star 2 Drawing
-    var star2Path = UIBezierPath()
-    star2Path.moveToPoint(CGPointMake(200, 529))
-    star2Path.addCurveToPoint(CGPointMake(212.99, 492.71), controlPoint1: CGPointMake(206.5, 529), controlPoint2: CGPointMake(212.99, 492.71))
-    star2Path.addCurveToPoint(CGPointMake(249.91, 490.97), controlPoint1: CGPointMake(212.99, 492.71), controlPoint2: CGPointMake(247.9, 497.45))
-    star2Path.addCurveToPoint(CGPointMake(221.02, 466.8), controlPoint1: CGPointMake(251.91, 484.49), controlPoint2: CGPointMake(221.02, 466.8))
-    star2Path.addCurveToPoint(CGPointMake(230.84, 429.43), controlPoint1: CGPointMake(221.02, 466.8), controlPoint2: CGPointMake(236.1, 433.43))
-    star2Path.addCurveToPoint(CGPointMake(200, 450.78), controlPoint1: CGPointMake(225.59, 425.42), controlPoint2: CGPointMake(200, 450.78))
-    star2Path.addCurveToPoint(CGPointMake(169.16, 429.43), controlPoint1: CGPointMake(200, 450.78), controlPoint2: CGPointMake(174.41, 425.42))
-    star2Path.addCurveToPoint(CGPointMake(178.98, 466.8), controlPoint1: CGPointMake(163.9, 433.43), controlPoint2: CGPointMake(178.98, 466.8))
-    star2Path.addCurveToPoint(CGPointMake(150.09, 490.97), controlPoint1: CGPointMake(178.98, 466.8), controlPoint2: CGPointMake(148.09, 484.49))
-    star2Path.addCurveToPoint(CGPointMake(187.01, 492.71), controlPoint1: CGPointMake(152.1, 497.45), controlPoint2: CGPointMake(187.01, 492.71))
-    star2Path.addCurveToPoint(CGPointMake(200, 529), controlPoint1: CGPointMake(187.01, 492.71), controlPoint2: CGPointMake(193.5, 529))
-    star2Path.closePath()
-    
+
+      var star2Path = UIBezierPath()
+      star2Path.moveToPoint(CGPointMake(200, 529))
+      star2Path.addQuadCurveToPoint(CGPointMake(212.99, 492.71), controlPoint: CGPointMake(206.5, 529))
+      star2Path.addQuadCurveToPoint(CGPointMake(249.91, 490.97), controlPoint: CGPointMake(212.99, 492.71))
+      star2Path.addQuadCurveToPoint(CGPointMake(221.02, 466.8), controlPoint: CGPointMake(251.91, 484.49))
+      star2Path.addQuadCurveToPoint(CGPointMake(230.84, 429.43), controlPoint: CGPointMake(221.02, 466.8))
+      star2Path.addQuadCurveToPoint(CGPointMake(200, 450.78), controlPoint: CGPointMake(225.59, 425.42))
+      star2Path.addQuadCurveToPoint(CGPointMake(169.16, 429.43), controlPoint: CGPointMake(200, 450.78))
+      star2Path.addQuadCurveToPoint(CGPointMake(178.98, 466.8), controlPoint: CGPointMake(163.9, 433.43))
+      star2Path.addQuadCurveToPoint(CGPointMake(150.09, 490.97), controlPoint: CGPointMake(178.98, 466.8))
+      star2Path.addQuadCurveToPoint(CGPointMake(187.01, 492.71), controlPoint: CGPointMake(152.1, 497.45))
+      star2Path.addQuadCurveToPoint(CGPointMake(200, 529), controlPoint: CGPointMake(187.01, 492.71))
+      star2Path.closePath()
+
     
     //// Oval 2 Drawing
     var oval2Path = UIBezierPath(ovalInRect: CGRectMake(321, 16, 100, 100))
