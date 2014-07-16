@@ -16,7 +16,7 @@
 		22C60E001975C6E400F73CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DFF1975C6E400F73CCB /* AppDelegate.swift */; };
 		22C60E061975C6E400F73CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C60E051975C6E400F73CCB /* Images.xcassets */; };
 		22C60E091975C6E400F73CCB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C60E071975C6E400F73CCB /* MainMenu.xib */; };
-		22C60E151975C6E400F73CCB /* TestsAndSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E141975C6E400F73CCB /* TestsAndSampleTests.swift */; };
+		22C60E151975C6E400F73CCB /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E141975C6E400F73CCB /* NSBezierPathExtension.swift */; };
 		22C60E331976310900F73CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E321976310900F73CCB /* AppDelegate.swift */; };
 		22C60E391976310900F73CCB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60E381976310900F73CCB /* GameViewController.swift */; };
 		22C60E3C1976310900F73CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C60E3A1976310900F73CCB /* Main.storyboard */; };
@@ -48,7 +48,7 @@
 		22C60E081975C6E400F73CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		22C60E0E1975C6E400F73CCB /* TestsAndSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsAndSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C60E131975C6E400F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C60E141975C6E400F73CCB /* TestsAndSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAndSampleTests.swift; sourceTree = "<group>"; };
+		22C60E141975C6E400F73CCB /* NSBezierPathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBezierPathExtension.swift; sourceTree = "<group>"; };
 		22C60E29197630B600F73CCB /* TestsAndSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestsAndSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		22C60E2E1976310900F73CCB /* TestsAndSampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestsAndSampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C60E311976310900F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		22C60E111975C6E400F73CCB /* TestsAndSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				22C60E141975C6E400F73CCB /* TestsAndSampleTests.swift */,
+				22C60E141975C6E400F73CCB /* NSBezierPathExtension.swift */,
 				22C60E121975C6E400F73CCB /* Supporting Files */,
 			);
 			path = TestsAndSampleTests;
@@ -329,7 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BAB6951976418800A47BF1 /* NSBezierPathExtension.swift in Sources */,
-				22C60E151975C6E400F73CCB /* TestsAndSampleTests.swift in Sources */,
+				22C60E151975C6E400F73CCB /* NSBezierPathExtension.swift in Sources */,
 				22BAB6931976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

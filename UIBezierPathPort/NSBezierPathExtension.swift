@@ -14,7 +14,7 @@ struct NSRectCorner : RawOptionSet {
   static var TopRight: NSRectCorner { return NSRectCorner(1 << 1) }
   static var BottomLeft: NSRectCorner { return NSRectCorner(1 << 2) }
   static var BottomRight: NSRectCorner { return NSRectCorner(1 << 3) }
-  static var AllCorners: NSRectCorner { return NSRectCorner(1 << 4) }
+  static var AllCorners: NSRectCorner { return .TopLeft | .TopRight | .BottomLeft | .BottomRight }
 }
 
 typealias UIRectCorner = NSRectCorner
@@ -78,16 +78,19 @@ class UIBezierPath : NSBezierPath, NSBezierPathExtension {
     super.init()
   }
   
-//  init(rect: NSRect) {
-//    super.init(rect: rect)
+  convenience init(rect: NSRect) {
+    self.init(roundedRect:rect, cornerRadius:0)
+  }
 //
-//  }
-//
-//  init(ovalInRect: NSRect) {
-//    super.init(ovalInRect:ovalInRect)
-//  }
+  convenience init(ovalInRect: NSRect) {
+    self.init()
+    var mutablePath = CGPathCreateMutableCopy(self.CGPath)
+    CGPathAddEllipseInRect(mutablePath, nil, ovalInRect)
+    self.CGPath = mutablePath
+  }
 
   convenience init(roundedRect rect: NSRect, cornerRadius: CGFloat) {
+  
     self.init(roundedRect:rect, byRoundingCorners:.AllCorners, cornerRadii:NSSize(width: cornerRadius, height: cornerRadius))
   }
 
