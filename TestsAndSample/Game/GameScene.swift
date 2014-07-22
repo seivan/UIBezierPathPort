@@ -27,7 +27,7 @@ class GameScene: SKScene {
   //// Oval Drawing
     var ovalRect = CGRectMake(0, 279, 150, 150)
     var ovalPath = UIBezierPath()
-    ovalPath.addArcWithCenter(CGPointMake(ovalRect.midX, ovalRect.midY), radius: ovalRect.width / 2, startAngle: -33 * M_PI/180, endAngle: 33 * M_PI/180, clockwise: false)
+    ovalPath.addArcWithCenter(CGPointMake(ovalRect.midX, ovalRect.midY), radius: ovalRect.width / 2.0, startAngle: -33.0 * M_PI/180.0, endAngle: 33.0 * M_PI/180.0, clockwise: false)
     ovalPath.addLineToPoint(CGPointMake(ovalRect.midX, ovalRect.midY))
     ovalPath.closePath()
     

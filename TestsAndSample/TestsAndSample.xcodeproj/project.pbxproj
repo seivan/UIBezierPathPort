@@ -12,6 +12,9 @@
 		22BAB6931976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB6901976418800A47BF1 /* __SHBezierPathInternalExtension.m */; };
 		22BAB6941976418800A47BF1 /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB6911976418800A47BF1 /* NSBezierPathExtension.swift */; };
 		22BAB6951976418800A47BF1 /* NSBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB6911976418800A47BF1 /* NSBezierPathExtension.swift */; };
+		22BE61EA197EC38700507AC4 /* ScalarArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE61E9197EC38700507AC4 /* ScalarArithmetic.swift */; };
+		22BE61EB197EC38700507AC4 /* ScalarArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE61E9197EC38700507AC4 /* ScalarArithmetic.swift */; };
+		22BE61EC197EC38700507AC4 /* ScalarArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE61E9197EC38700507AC4 /* ScalarArithmetic.swift */; };
 		22C60DFE1975C6E400F73CCB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DFD1975C6E400F73CCB /* main.swift */; };
 		22C60E001975C6E400F73CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C60DFF1975C6E400F73CCB /* AppDelegate.swift */; };
 		22C60E061975C6E400F73CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C60E051975C6E400F73CCB /* Images.xcassets */; };
@@ -40,6 +43,7 @@
 		22BAB68F1976418800A47BF1 /* __SHBezierPathInternalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = __SHBezierPathInternalExtension.h; sourceTree = "<group>"; };
 		22BAB6901976418800A47BF1 /* __SHBezierPathInternalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = __SHBezierPathInternalExtension.m; sourceTree = "<group>"; };
 		22BAB6911976418800A47BF1 /* NSBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPathExtension.swift; sourceTree = "<group>"; };
+		22BE61E9197EC38700507AC4 /* ScalarArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalarArithmetic.swift; sourceTree = "<group>"; };
 		22C60DF81975C6E400F73CCB /* TestsAndSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestsAndSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C60DFC1975C6E400F73CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C60DFD1975C6E400F73CCB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -96,9 +100,18 @@
 			path = ../UIBezierPathPort;
 			sourceTree = "<group>";
 		};
+		22BE61E8197EC38700507AC4 /* ScalarArithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				22BE61E9197EC38700507AC4 /* ScalarArithmetic.swift */,
+			);
+			path = ScalarArithmetic;
+			sourceTree = "<group>";
+		};
 		22C60DEF1975C6E400F73CCB = {
 			isa = PBXGroup;
 			children = (
+				22BE61E8197EC38700507AC4 /* ScalarArithmetic */,
 				22BAB68E1976418800A47BF1 /* UIBezierPathPort */,
 				22C60E511976318C00F73CCB /* Game */,
 				22C60E29197630B600F73CCB /* TestsAndSample-Bridging-Header.h */,
@@ -317,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C60E581976346800F73CCB /* GameScene.swift in Sources */,
+				22BE61EA197EC38700507AC4 /* ScalarArithmetic.swift in Sources */,
 				22C60E001975C6E400F73CCB /* AppDelegate.swift in Sources */,
 				22C60DFE1975C6E400F73CCB /* main.swift in Sources */,
 				22BAB6921976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */,
@@ -329,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BAB6951976418800A47BF1 /* NSBezierPathExtension.swift in Sources */,
+				22BE61EB197EC38700507AC4 /* ScalarArithmetic.swift in Sources */,
 				22C60E151975C6E400F73CCB /* NSBezierPathExtension.swift in Sources */,
 				22BAB6931976418800A47BF1 /* __SHBezierPathInternalExtension.m in Sources */,
 			);
@@ -339,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BAB68C19763A6C00A47BF1 /* GameScene.swift in Sources */,
+				22BE61EC197EC38700507AC4 /* ScalarArithmetic.swift in Sources */,
 				22C60E391976310900F73CCB /* GameViewController.swift in Sources */,
 				22C60E331976310900F73CCB /* AppDelegate.swift in Sources */,
 			);

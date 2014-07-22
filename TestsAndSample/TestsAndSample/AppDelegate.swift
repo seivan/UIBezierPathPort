@@ -27,8 +27,8 @@ extension SKNode {
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     
-    @IBOutlet var window: NSWindow
-    @IBOutlet var skView: SKView
+    @IBOutlet var window: NSWindow?
+    @IBOutlet var skView: SKView?
     
     func applicationDidFinishLaunching(aNotification: NSNotification?) {
         /* Pick a size for the scene */
